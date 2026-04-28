@@ -1,7 +1,9 @@
 # Setup
 
-Install a stable version of *go*, e.g., 1.24.11
+Install a stable version of `go`, e.g., 1.24.11
 
 # Run
 
-`go run .`
+- Download the code
+- Go to the directory: `cd SCKEPE`
+Simulatethe code: `go run .`
