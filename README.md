@@ -4,6 +4,6 @@ Install a stable version of `go`, e.g., 1.24.11
 
 # Run
 
-- Download the code
+- Download the code from this repository
 - Go to the directory: `cd SCKEPE`
-Simulatethe code: `go run .`
+- Simulate the code: `go run .`
