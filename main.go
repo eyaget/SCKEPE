@@ -832,12 +832,12 @@ func main() {
 	//fmt.Printf("Impostor trials: %d | Accept=%d | FAR=%.4f\n", impostorTotal, impostorAccept, far)
 
 	fmt.Printf("\nTiming for 100 %d Runs:\n", NUM_RUNS)
-	fmt.Printf("  SNARK Prove : mean=%.3f ms std=%.3f ms min=%.3f ms max=%.3f ms\n", mpA, spA, minPA, maxPA)
-	fmt.Printf("  SNARK Verify: mean=%.3f ms std=%.3f ms min=%.3f ms max=%.3f ms\n", mvA, svA, minVA, maxVA)
-	fmt.Printf("  Eq Prove    : mean=%.3f ms std=%.3f ms min=%.3f ms max=%.3f ms\n", meqPA, seqPA, mineqPA, maxeqPA)
-	fmt.Printf("  Eq Verify   : mean=%.3f ms std=%.3f ms min=%.3f ms max=%.3f ms\n", meqVA, seqVA, mineqVA, maxeqVA)
-	fmt.Printf("  Sig Prove  : mean=%.3f ms std=%.3f ms min=%.3f ms max=%.3f ms\n", msigP, ssigP, minsigP, maxsigP)
-	fmt.Printf("  Sig Verify  : mean=%.3f ms std=%.3f ms min=%.3f ms max=%.3f ms\n", msigV, ssigV, minsigV, maxsigV)
+	fmt.Printf("  Semantic Correctness Proof Generation   : mean=%.3f ms std=%.3f ms min=%.3f ms max=%.3f ms\n", mpA, spA, minPA, maxPA)
+	fmt.Printf("  Semantic Correctness Proof Verification : mean=%.3f ms std=%.3f ms min=%.3f ms max=%.3f ms\n", mvA, svA, minVA, maxVA)
+	fmt.Printf("  Key Equality Proof Generation           : mean=%.3f ms std=%.3f ms min=%.3f ms max=%.3f ms\n", meqPA, seqPA, mineqPA, maxeqPA)
+	fmt.Printf("  Key Equality Proof Verification         : mean=%.3f ms std=%.3f ms min=%.3f ms max=%.3f ms\n", meqVA, seqVA, mineqVA, maxeqVA)
+	fmt.Printf("  Key Freshness Proof Generation          : mean=%.3f ms std=%.3f ms min=%.3f ms max=%.3f ms\n", msigP, ssigP, minsigP, maxsigP)
+	fmt.Printf("  Key Freshness Proof Verification        : mean=%.3f ms std=%.3f ms min=%.3f ms max=%.3f ms\n", msigV, ssigV, minsigV, maxsigV)
 
 	//fmt.Printf("\nTiming over %d SUCCESSFUL authentications:\n", len(proveOK))
 	//fmt.Printf("  SNARK Prove : mean=%.3f ms std=%.3f ms min=%.3f ms max=%.3f ms\n", mpS, spS, minPS, maxPS)
