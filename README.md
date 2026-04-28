@@ -7,7 +7,7 @@ Install a stable version of `go`, e.g., 1.24.11
 ## Create directory
 - Download the code from this repository
 - Go to the directory: `cd SCKEPE`
-- 
+  
 ## Initialize module
 - `go mod init SCKEPE`
 
