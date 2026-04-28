@@ -1,4 +1,4 @@
-# Setup
+# Setup (Linux)
 
 Install a stable version of `go`, e.g., 1.24.11
 
