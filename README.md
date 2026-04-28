@@ -22,4 +22,6 @@ The above steps create `go.mod` and `go.sum` configuration files in the project 
 
 # Run
 
-- `go run .`
+- `go run .
+
+The code is executed 100 times to simulate the complete proof process of SCKEPE and to measure the execution time of each proof generation and verification module.
