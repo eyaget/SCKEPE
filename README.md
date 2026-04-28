@@ -18,7 +18,7 @@ Install a stable version of `go`, e.g., 1.24.11
 - `go get github.com/iden3/go-iden3-crypto@latest`
 - `go mod tidy`
 
-  The above steps create `go.mod` and `go.sum` configuration files in the project directory. 
+The above steps create `go.mod` and `go.sum` configuration files in the project directory. 
 
 # Run
 
