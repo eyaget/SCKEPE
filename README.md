@@ -2,16 +2,16 @@
 
 Install a stable version of `go`, e.g., 1.24.11
 
-# Configuration
+## Configuration
 
-## Create directory
+### Create directory
 - Download the code from this repository
 - Go to the directory: `cd SCKEPE`
   
-## Initialize module
+### Initialize module
 - `go mod init SCKEPE`
 
-## Add dependencies
+### Add dependencies
 - `go get github.com/consensys/gnark@v0.14.0`
 - `go get github.com/consensys/gnark-crypto@v0.19.2`
 - `go get github.com/liyue201/gnark-circomlib@latest`
@@ -20,7 +20,7 @@ Install a stable version of `go`, e.g., 1.24.11
 
 The above steps create `go.mod` and `go.sum` configuration files in the project directory. 
 
-# Run
+## Run
 
 - `go run .`
 
