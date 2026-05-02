@@ -38,7 +38,7 @@ It is also possible to simulate the runtime performance of SCKEPE on a mobile de
 - Connect the phone to the computer through cable.
 - Verify the phone in terminal using `adb devices`. If the phone is found, you will see a device under list of devices.
 
-  ### Go code cross-compilation (Linux → Android ARM64)
+### Go code cross-compilation (Linux → Android ARM64)
 Compile the `go` code to arm64 as follows:
 - On terminal, go to the "main.go" folder.
 - Run `GOOS=android GOARCH=arm64 go build -o main`.
